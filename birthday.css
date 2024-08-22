@@ -1,0 +1,121 @@
+body{
+    font-family: "Happy Monkey", system-ui;
+    text-align: center;
+    background-image: linear-gradient(#3a0ca3, #f588fa, #d00000);
+    color: #ffffff;
+}
+
+#img{
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid #f588fa;
+}
+
+h1,h2,h3,h4,p{
+    text-shadow: 1px 1px 1px  black;
+}
+
+.giftcover{
+   background-image: url("img/gift\ cover3.avif");
+   height: 400px;
+   width: 400px;
+   background-size: cover;
+   border: 6px solid white;
+   border-radius: 4px;
+   display: block;
+   margin: 0 auto;
+   transition: background-image 0.15s;
+}
+
+#giftcover-img:hover{
+    background-image: url(img/giphy\ \(2\).webp);
+    background-size: cover;
+}
+
+.gift-section{
+    margin-top: 50px;
+}
+
+#gift-happy{
+    margin-bottom: 0;
+}
+
+#gift-hover{
+    margin-top: 13px;
+}
+
+#gift-hot{
+    margin-bottom: 20px;
+}
+
+#gift-img:hover{
+    background-image: url(img/giphy\ \(4\).webp);
+}
+
+#gift-genius:hover{
+    background-image: url(img/genius.webp);
+}
+
+#gift-badass:hover{
+    background-image: url(img/badass.webp);
+}
+
+#gift-cheers{
+    height: 200px;
+    width: 400px;
+    background-image: url(img/gift\ cover4.jpg);
+    background-size:cover;
+}
+
+#gift-cheers:hover{
+    background-image: url(img/cheers.webp)
+}
+
+#gift-wish{
+    height: 200px;
+    width: 400px;
+    background-image: url(img/gift\ cover4.jpg);
+    background-size: cover;
+}
+
+#gift-wish:hover{
+    background-image: url(img/birthday.webp);
+    background-size: contain;
+}
+
+#age{
+    background-color: #f588fa;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+#date{
+    background-color: #f588fa;
+    padding: 8px;
+    border-radius: 4px;
+    margin: 0px;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot{
+    margin-bottom: 20px;
+    width: 400px;
+    margin:0 auto;
+}
+
+#link{
+    margin-top: 50px;
+}
+
+.link2{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-style: italic;
+}
