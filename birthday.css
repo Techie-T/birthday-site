@@ -25,6 +25,7 @@ h1,h2,h3,h4,p{
    display: block;
    margin: 0 auto;
    transition: background-image 0.15s;
+   margin-bottom: 20px;
 }
 
 #giftcover-img:hover{
@@ -55,9 +56,12 @@ h1,h2,h3,h4,p{
 #gift-genius:hover{
     background-image: url(img/genius.webp);
 }
+#gift-special:hover{
+    background-image: url(img/special.webp);
+}
 
 #gift-badass:hover{
-    background-image: url(img/badass.webp);
+    background-image: url(img/beautiful.webp);
 }
 
 #gift-cheers{
