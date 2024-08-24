@@ -33,7 +33,7 @@ h1,h2,h3,h4,p{
    margin-bottom: 20px;
 }
 
-#giftcover-img:hover{
+#giftcover-img:active{
     background-image: url(img/giphy\ \(2\).webp);
     background-size: cover;
 }
@@ -54,18 +54,18 @@ h1,h2,h3,h4,p{
     margin-bottom: 20px;
 }
 
-#gift-img:hover{
+#gift-img:active{
     background-image: url(img/giphy\ \(4\).webp);
 }
 
-#gift-genius:hover{
+#gift-genius:active{
     background-image: url(img/genius.webp);
 }
-#gift-special:hover{
+#gift-special:active{
     background-image: url(img/special.webp);
 }
 
-#gift-badass:hover{
+#gift-badass:active{
     background-image: url(img/beautiful.webp);
 }
 
@@ -76,7 +76,7 @@ h1,h2,h3,h4,p{
     background-size:cover;
 }
 
-#gift-cheers:hover{
+#gift-cheers:active{
     background-image: url(img/cheers.webp)
 }
 
@@ -87,7 +87,7 @@ h1,h2,h3,h4,p{
     background-size: cover;
 }
 
-#gift-wish:hover{
+#gift-wish:active{
     background-image: url(img/birthday.webp);
     background-size: contain;
 }
